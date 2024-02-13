@@ -54,13 +54,9 @@ def print_pizza_to_ui(pizza: AbstractPizza) ->None:
     print(f'Name: {pizza.description()}|Cost: {pizza.cost()}')
 # ========================================
 
-
-
-
 if __name__ == '__main__':
     pizza = MiddlePizza()
     pizza = Chicken(pizza)
     pizza = Chicken(pizza)
-    pizza = Chicken(pizza)
-    pizza = Chicken(pizza)
+    pizza = Pepper(pizza)
     print_pizza_to_ui(pizza)
